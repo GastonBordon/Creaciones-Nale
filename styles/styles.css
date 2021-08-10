@@ -99,6 +99,7 @@ h1 {
     position: relative;
     transform: scale(1.2);
     z-index: 2;
+    margin: 0, 1rem;
 }
 
 .productosDestacados__productos {
@@ -132,10 +133,14 @@ h1 {
     border-width: 0.3rem;
     margin: 2rem;
     padding: 2rem;
-    background-color: rgb(170, 169, 169);
+    background-color: rgb(170, 169, 169, 0.7);
 }
 
 /* Novedades */
+
+.novedades {
+    padding-bottom: 2rem;
+}
 
 .novedades__contenido {
     display: flex;
@@ -191,7 +196,6 @@ h2 {
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
-    color: #0f0cda;
     text-align:center;
 }
 
@@ -359,6 +363,36 @@ td {
     margin-top: 4rem;
 }
 
+.ubicacion {
+    padding-bottom: 2rem;
+}
+
+.ubicacion__bordes {
+    border:solid;
+    border-radius: 2rem;
+    margin: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(170, 169, 169, 0.7);
+}
+
+.ubicacion h3 {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+}
+.ubicacion__ubicacionBa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.ubicacion__ubicacionSe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
 /* Page Contacto */
 
 form {
@@ -377,6 +411,7 @@ input:focus {
     width: 200px;
     height: 30px;
 }
+
 
 /* Page Preguntas Frecuentes */
 
@@ -399,4 +434,5 @@ input:focus {
     font-size: 1.2rem;
     display: inline-block;
 }
+
 
