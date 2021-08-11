@@ -13,6 +13,7 @@
 
 .fondoOpaco{
     background-color: #00000050;
+    width: 100%;
 }
 
 .menu {
@@ -437,7 +438,13 @@ input:focus {
 
 /* Media Queries */
 
-@media only screen and (max-width) {
+@media only screen and (max-width: 576px) {
+    .menu__items {
+        display: inline;
+    }
+    .logoHeader {
+        display: none;
+    }
 
 
 }
