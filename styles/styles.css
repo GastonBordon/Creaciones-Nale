@@ -449,9 +449,12 @@ input:focus {
 
     .alinearSeccion {
         flex-direction: column;
+        width: 100%;
+
     }
 
-
+    .footer {
+        flex-direction: column;
+    }
 
 }
-
