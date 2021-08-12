@@ -440,11 +440,17 @@ input:focus {
 
 @media only screen and (max-width: 576px) {
     .menu__items {
-        display: inline;
+        flex-direction: column;
     }
+
     .logoHeader {
         display: none;
     }
+
+    .alinearSeccion {
+        flex-direction: column;
+    }
+
 
 
 }
