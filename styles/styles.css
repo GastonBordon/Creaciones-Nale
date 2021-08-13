@@ -75,22 +75,22 @@ h1 {
 
 .alinearSeccion {
     display: flex;
-    justify-content: space-between;
-    padding-top: 1rem;
+    justify-content: space-evenly;
+    padding: 1rem 2rem;
 }
 
 .productosDestacados {
     background-color: rgb(209, 206, 206);
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-end;
     border: solid;
     margin: 1rem;
     transition: all 0.5s;
 }
 
 .productosDestacados img {
-    width: 200px;
-    height: 200px;
+    width: 45vh;
     margin: 0.5rem;
     position: relative;
     z-index: 1;
@@ -98,7 +98,7 @@ h1 {
 
 .productosDestacados:hover {
     position: relative;
-    transform: scale(1.2);
+    transform: scale(1.1);
     z-index: 2;
     margin: 0, 1rem;
 }
@@ -106,6 +106,7 @@ h1 {
 .productosDestacados__productos {
     text-align: center;
     padding: 0.5rem;
+    line-height: 1.6;
 }
 
 .productosDestacados__productos li {
@@ -214,7 +215,7 @@ span {
 }
 
 button {
-    background-image: radial-gradient(rgba(255, 0, 0, 0.746), rgba(0, 0, 0, 0.466));   
+    background-image: radial-gradient(#b3d26d, rgba(0, 0, 0, 0.466));   
     font-weight: 400;
     text-decoration: none;
     font-size: 1.2rem;
@@ -223,7 +224,6 @@ button {
     border-style: solid;
     border-radius: 1rem;
     text-align: center;
-    margin-top: 10px;
 }
 
 button:hover {
