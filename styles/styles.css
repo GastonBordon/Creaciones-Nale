@@ -24,6 +24,10 @@
     z-index: 2;
 }
 
+.menu .menu__items {
+    margin-bottom: 0;
+}
+
 .menu__items {
     display: flex;
     justify-content: flex-end;
@@ -46,6 +50,7 @@
     text-decoration: none;
     text-align: center;
     padding: 0 1rem;
+    
 }
 
 .logoHeader {
