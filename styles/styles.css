@@ -22,6 +22,7 @@
     position: fixed;
     background-color: #7d7ec2e6;
     z-index: 2;
+    padding: 0;
 }
 
 .menu .menu__items {
@@ -32,6 +33,7 @@
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
+    margin: 0;
 }
  
 .menu__items li {
@@ -40,7 +42,10 @@
 }
 
 .menu__items li:hover {
-    background-color: #b3d26c;
+    background-image: radial-gradient(rgb(179, 210, 109), rgba(0, 0, 0, 0.467));
+    text-decoration: none;
+    border-radius: 1rem;
+    text-align: center;
     
 }
 
@@ -444,8 +449,13 @@ input:focus {
 /* Media Queries */
 
 @media only screen and (max-width: 576px) {
+    .menu {
+        width: auto;
+        position: inherit;
+    }
     .menu__items {
         flex-direction: column;
+        align-items: flex-end;
     }
 
     .logoHeader {
