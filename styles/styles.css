@@ -481,4 +481,8 @@ input:focus {
         width: 100%;
     }
 
+    .novedades__contenido {
+        flex-direction: column;
+    }
+
 }
