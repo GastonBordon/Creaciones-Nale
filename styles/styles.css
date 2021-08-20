@@ -473,4 +473,12 @@ input:focus {
         flex-direction: column;
     }
 
+    .aromaterapia__imagenes {
+        display: flex;
+        flex-direction: column;
+    }
+    .aromaterapia__imagenes img {
+        width: 100%;
+    }
+
 }
