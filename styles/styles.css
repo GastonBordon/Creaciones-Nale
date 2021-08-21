@@ -87,6 +87,11 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     padding: 1rem 2rem;
+    flex-wrap: wrap;
+}
+
+.alinearSeccion img {
+    width: 100%;
 }
 
 .productosDestacados {
@@ -131,6 +136,10 @@ h1 {
     display: flex;
     justify-content: center;
     width: 100%;
+    flex-wrap: wrap;
+}
+.aromaterapia__imagenes img {
+    padding-top: 1rem;
 }
 
 .aromaterapia h2 {
@@ -464,9 +473,7 @@ input:focus {
     }
 
     .alinearSeccion {
-        flex-direction: column;
-        width: 100%;
-
+        flex-wrap: wrap;
     }
 
     .footer {
@@ -476,13 +483,25 @@ input:focus {
     .aromaterapia__imagenes {
         display: flex;
         flex-direction: column;
+        margin: auto;
     }
     .aromaterapia__imagenes img {
-        width: 100%;
+        padding: 1rem 2rem;
+        margin: auto;
     }
 
     .novedades__contenido {
         flex-direction: column;
     }
-
 }
+
+@media only screen and (max-width: 720px) {
+    .aromaterapia__imagenes img {
+        width: 100%;
+    }
+
+    .novedades__contenido video {
+        width: 100%;
+    }
+}
+
