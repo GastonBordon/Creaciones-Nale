@@ -16,6 +16,10 @@
     width: 100%;
 }
 
+.fondoHeader .navbar-brand {
+    color: #ffffff;
+}
+
 .menu {
     font-family:'Montserrat', sans-serif;
     width: 100%;
@@ -441,18 +445,19 @@ input:focus {
 
 .preguntasFrecuentes ul {
     margin-top: 2rem;
+    margin-bottom: 0;
+    
 }
 
-.preguntasFrecuentes li {
+.preguntasFrecuentes li a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.3rem; 
 }
 
-.preguntasFrecuentes p {
-    padding-top: 1rem;
+.preguntasFrecuentes .collapse .card-body {
     font-size: 1.2rem;
-    display: inline-block;
+    background-color: #7d7ec2e6;
 }
 
 /* Media Queries */
@@ -493,6 +498,13 @@ input:focus {
     .novedades__contenido {
         flex-direction: column;
     }
+    .novedades__contenido video {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
 }
 
 @media only screen and (max-width: 720px) {
@@ -500,8 +512,18 @@ input:focus {
         width: 100%;
     }
 
-    .novedades__contenido video {
+    .aromaterapia__imagenes {
+        display: flex;
+        flex-direction: column;
+    }
+    .aromaterapia__imagenes img {
         width: 100%;
     }
+
+    .novedades__contenido {
+        flex-direction: column;
+    }
+
+
 }
 
