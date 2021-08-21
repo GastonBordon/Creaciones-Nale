@@ -16,6 +16,10 @@
     width: 100%;
 }
 
+.fondoHeader .navbar-brand {
+    color: #ffffff;
+}
+
 .menu {
     font-family:'Montserrat', sans-serif;
     width: 100%;
