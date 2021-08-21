@@ -493,6 +493,13 @@ input:focus {
     .novedades__contenido {
         flex-direction: column;
     }
+    .novedades__contenido video {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
 }
 
 @media only screen and (max-width: 720px) {
@@ -500,7 +507,6 @@ input:focus {
         width: 100%;
     }
 
-<<<<<<< HEAD
     .aromaterapia__imagenes {
         display: flex;
         flex-direction: column;
@@ -513,10 +519,6 @@ input:focus {
         flex-direction: column;
     }
 
-=======
-    .novedades__contenido video {
-        width: 100%;
-    }
->>>>>>> menuResponsive
+
 }
 
