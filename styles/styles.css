@@ -1,528 +1,374 @@
 * {
-    margin: 0;
-    padding: 0;
-}
+  margin: 0;
+  padding: 0; }
 
 /* Encabezado Index */
-
 .fondoHeader {
-    background-image: url(../img/fondoHeader.png);
-    background-position: left bottom;
-    width: 100%;
-}
+  background-image: url(../img/fondoHeader.png);
+  background-position: left bottom;
+  width: 100%; }
+  .fondoHeader .navbar-brand {
+    color: #ffffff; }
 
-.fondoOpaco{
-    background-color: #00000050;
-    width: 100%;
-}
-
-.fondoHeader .navbar-brand {
-    color: #ffffff;
-}
+.fondoOpaco {
+  background-color: #00000050;
+  width: 100%; }
 
 .menu {
-    font-family:'Montserrat', sans-serif;
-    width: 100%;
-    position: fixed;
-    background-color: #7d7ec2e6;
-    z-index: 2;
-    padding: 0;
-}
-
-.menu .menu__items {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  position: fixed;
+  background-color: #7d7ec2e6;
+  z-index: 2;
+  padding: 0; }
+  .menu .menu__items {
     margin-bottom: 0;
-}
-
-.menu__items {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    margin: 0;
-}
- 
-.menu__items li {
-    height: 100%;
-    padding: 0.5rem;
-}
-
-.menu__items li:hover {
-    background-image: radial-gradient(rgb(179, 210, 109), rgba(0, 0, 0, 0.467));
-    text-decoration: none;
-    border-radius: 1rem;
-    text-align: center;
-    
-}
-
-.menu__items a{
-    font-size: 1.3rem;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    padding: 0 1rem;
-    
-}
+    margin: 0; }
+    .menu .menu__items li {
+      height: 100%;
+      padding: 0.5rem; }
+    .menu .menu__items li:hover {
+      background-image: radial-gradient(#b3d26d, rgba(0, 0, 0, 0.467));
+      text-decoration: none;
+      border-radius: 1rem;
+      text-align: center; }
+    .menu .menu__items a {
+      font-size: 1.3rem;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      padding: 0 1rem; }
 
 .logoHeader {
-    padding-top: 4rem;
-    width: 50vh;
-}
-
-h1 {
-    animation-duration: 3s;
-    animation-name: slide_left;
-  }
-  
-  @keyframes slide_left {
-    from {
-      margin-left: 100%;
-      width: 300%
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
-
+  padding-top: 4rem;
+  width: 50vh; }
 
 /* Seccion Productos Destacados */
-
 .alinearSeccion {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1rem 2rem;
-    flex-wrap: wrap;
-}
-
-.alinearSeccion img {
-    width: 100%;
-}
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 2rem;
+  flex-wrap: wrap; }
+  .alinearSeccion img {
+    width: 100%; }
 
 .productosDestacados {
-    background-color: rgb(209, 206, 206);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    border: solid;
-    margin: 1rem;
-    transition: all 0.5s;
-}
-
-.productosDestacados img {
+  background-color: #d1cece;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: solid;
+  margin: 1rem;
+  transition: all 0.5s; }
+  .productosDestacados img {
     width: 45vh;
     margin: 0.5rem;
     position: relative;
-    z-index: 1;
-}
+    z-index: 1; }
 
 .productosDestacados:hover {
-    position: relative;
-    transform: scale(1.1);
-    z-index: 2;
-    margin: 0, 1rem;
-}
+  position: relative;
+  transform: scale(1.1);
+  z-index: 2;
+  margin: 0, 1rem; }
 
 .productosDestacados__productos {
-    text-align: center;
-    padding: 0.5rem;
-    line-height: 1.6;
-}
-
-.productosDestacados__productos li {
+  text-align: center;
+  padding: 0.5rem;
+  line-height: 1.6; }
+  .productosDestacados__productos li {
     text-align: left;
     list-style-type: none;
-    font-family: 'Montserrat', sans-serif;
-}
+    font-family: 'Montserrat', sans-serif; }
 
 /* Seccion Aromaterapia */
-
 .aromaterapia__imagenes {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    flex-wrap: wrap;
-}
-.aromaterapia__imagenes img {
-    padding-top: 1rem;
-}
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap; }
+  .aromaterapia__imagenes img {
+    padding-top: 1rem; }
 
 .aromaterapia h2 {
-    padding: 2rem;
-
-}
+  padding: 2rem; }
 
 .aromaterapia p {
-    font-family: 'Montserrat', sans-serif;
-    border-style: solid;
-    border-radius: 2rem;
-    border-width: 0.3rem;
-    margin: 2rem;
-    padding: 2rem;
-    background-color: rgb(170, 169, 169, 0.7);
-}
+  font-family: 'Montserrat', sans-serif;
+  border-style: solid;
+  border-radius: 2rem;
+  border-width: 0.3rem;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: rgba(170, 169, 169, 0.7); }
 
 /* Novedades */
-
 .novedades {
-    padding-bottom: 2rem;
-}
+  padding-bottom: 2rem; }
 
 .novedades__contenido {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.novedades__contenido p {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .novedades__contenido p {
     padding-left: 1rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
-    font-weight: 500;
-}
-
-.novedades__contenido ul li {
+    font-weight: 500; }
+  .novedades__contenido ul li {
     margin-left: 2rem;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 2rem;
-}
+    margin-top: 2rem; }
+  .novedades__contenido video {
+    width: 450px; }
 
-.novedades__contenido video {
-    width: 450px;
-}
-
-/* Globales */  
-
+/* Globales */
 main {
-    background-image: url(../img/fondoMain.png);
-    background-position: bottom;
-    background-attachment: fixed;
-    background-repeat: repeat;
-    background-color: #b3d26c;
-    z-index: 1;
-    width: 100%;
-}
+  background-image: url(../img/fondoMain.png);
+  background-position: bottom;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-color: #b3d26c;
+  z-index: 1;
+  width: 100%; }
+
 img {
-    width: 500  px;
-    height: 300px;
-}
+  width: 500  px;
+  height: 300px; }
+
 h1 {
-    font-size: 60px;
-    color: #d9ff82;
-    font-family: 'Monoton', cursive;  
-}
+  font-size: 60px;
+  color: #d9ff82;
+  font-family: 'Monoton', cursive; }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    font-size: 3rem ;
-    padding-top: 4rem;
-}
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 4rem; }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    text-align:center;
-}
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  text-align: center; }
 
 p {
-    padding: 2rem;
-    line-height: 1.6;
-    font-family: 'Montserrat', sans-serif;
-}
+  padding: 2rem;
+  line-height: 1.6;
+  font-family: 'Montserrat', sans-serif; }
 
 span {
-    font-family:'Montserrat', sans-serif;
-    font-size: 2rem;
-    font-weight: 900;
-    color: #ffffff;
-}
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #ffffff; }
 
 button {
-    background-image: radial-gradient(#b3d26d, rgba(0, 0, 0, 0.466));   
-    font-weight: 400;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 900;
-    padding: 5px;
-    border-style: solid;
-    border-radius: 1rem;
-    text-align: center;
-}
+  background-image: radial-gradient(#b3d26d, rgba(0, 0, 0, 0.466));
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 900;
+  padding: 5px;
+  border-style: solid;
+  border-radius: 1rem;
+  text-align: center; }
 
 button:hover {
-    cursor: pointer;
-    background-color: #b3d26c;
-}
+  cursor: pointer;
+  background-color: #b3d26c; }
 
 /* Utilidades */
-
 .alinearContenido {
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 1rem;
-    align-items: center;
-}
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1rem;
+  align-items: center; }
 
 /* Footer */
-
 .footer {
-    background-image: linear-gradient(to bottom, #7d7ec278, #7d7ec2e6); 
-    display: flex;  
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
+  background-image: linear-gradient(to bottom, #7d7ec278, #7d7ec2e6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%; }
 
 .footer__informacion {
-    padding: 1rem;
-}
-
-.footer__informacion li {
+  padding: 1rem; }
+  .footer__informacion li {
     margin-top: 1rem;
     list-style-type: none;
-    font-size: 1.2rem;
-}
-
-.footer__informacion p {
-    font-size: 1.2rem;
-}
-
-.footer__informacion img {
+    font-size: 1.2rem; }
+  .footer__informacion p {
+    font-size: 1.2rem; }
+  .footer__informacion img {
     width: 100px;
-    height: 100px;
-}
+    height: 100px; }
 
 .footer__contacto {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer__contacto img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .footer__contacto img {
     width: 25px;
     height: 25px;
-    margin-right: 1rem;
-}
+    margin-right: 1rem; }
 
 /* Page Productos */
-
 .catalogoProductos {
-    padding-top: 1rem;
-    display: grid;
-    grid-column-gap: 20px;
-    grid-row-gap: 30px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "lumbar cervical baby"
-                        "combo mantalmohadon mantaPeso"
-    
-}
+  padding-top: 1rem;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "lumbar cervical baby" "combo mantalmohadon mantaPeso"; }
 
 .lumbar {
-    grid-area: lumbar;
-}
+  grid-area: lumbar; }
+
 .cervical {
-    grid-area: cervical;
-}
+  grid-area: cervical; }
+
 .baby {
-    grid-area: baby;
-}
+  grid-area: baby; }
+
 .combo {
-    grid-area: combo;
-}
+  grid-area: combo; }
+
 .mantalmohadon {
-    grid-area: mantalmohadon;
-}
+  grid-area: mantalmohadon; }
+
 .mantaPeso {
-    grid-area: mantaPeso;
-}
+  grid-area: mantaPeso; }
 
 /* Tabla de productos*/
-
 .productoTabla {
-    background-color: rgb(48, 148, 48);
-    
-}
+  background-color: #309430; }
 
 th {
-    font-weight: 900;
-    font-size: 25px;
-    background-color: darksalmon;
-}
+  font-weight: 900;
+  font-size: 25px;
+  background-color: darksalmon; }
 
 td {
-    background-color: rgb(143, 188, 143);
-}
+  background-color: darkseagreen; }
 
-.tabla li{
-    list-style: none;
-}
+.tabla li {
+  list-style: none; }
 
 /* Page Nosotros */
-
 .seccionNosotros {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
 
 .seccionNosotros__lista {
-    border-right: solid;
-    margin-right: 2rem;
-}
-
-.seccionNosotros__lista ul {
-    padding: 2rem;
-}
-.seccionNosotros__lista ul li {
-    line-height: 2rem;
-    text-align: justify;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 500;
-}
+  border-right: solid;
+  margin-right: 2rem; }
+  .seccionNosotros__lista ul {
+    padding: 2rem; }
+    .seccionNosotros__lista ul li {
+      line-height: 2rem;
+      text-align: justify;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 500; }
 
 .seccionNosotros__comedor {
-    padding: 2rem;
-    margin-top: 4rem;
-}
+  padding: 2rem;
+  margin-top: 4rem; }
 
 .ubicacion {
-    padding-bottom: 2rem;
-}
+  padding-bottom: 2rem; }
+  .ubicacion h3 {
+    margin-top: 4rem;
+    font-size: 1.5rem; }
 
 .ubicacion__bordes {
-    border:solid;
-    border-radius: 2rem;
-    margin: 2rem;
-    padding-bottom: 2rem;
-    background-color: rgb(170, 169, 169, 0.7);
-}
+  border: solid;
+  border-radius: 2rem;
+  margin: 2rem;
+  padding-bottom: 2rem;
+  background-color: rgba(170, 169, 169, 0.7); }
 
-.ubicacion h3 {
-    margin-top: 4rem;
-    font-size: 1.5rem;
-}
 .ubicacion__ubicacionBa {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 1.3rem;
-}
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.3rem; }
 
 .ubicacion__ubicacionSe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.3rem;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem; }
 
 /* Page Contacto */
-
 form {
-    font-family: 'Montserrat', sans-serif;
-    padding: 2rem
-}
+  font-family: 'Montserrat', sans-serif;
+  padding: 2rem; }
 
 input {
-    transition: all 1s;
-    width: 150px;
-    height: 20px;
-
-}
+  transition: all 1s;
+  width: 150px;
+  height: 20px; }
 
 input:focus {
-    width: 200px;
-    height: 30px;
-}
-
+  width: 200px;
+  height: 30px; }
 
 /* Page Preguntas Frecuentes */
-
 .preguntasFrecuentes {
-    margin-left: 4rem;
-}
-
-.preguntasFrecuentes ul {
+  margin-left: 4rem; }
+  .preguntasFrecuentes ul {
     margin-top: 2rem;
-}
+    margin-bottom: 0; }
+    .preguntasFrecuentes ul li a {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 1.3rem; }
 
-.preguntasFrecuentes li {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 1.3rem; 
-}
-
-.preguntasFrecuentes p {
-    padding-top: 1rem;
-    font-size: 1.2rem;
-    display: inline-block;
-}
+.preguntasFrecuentes .collapse .card-body {
+  font-size: 1.2rem;
+  background-color: #7d7ec2e6; }
 
 /* Media Queries */
-
 @media only screen and (max-width: 990px) {
-    .menu {
-        width: auto;
-        position: inherit;
-    }
-    .menu__items {
-        flex-direction: column;
-        align-items: flex-end;
-    }
-
-
-    .logoHeader {
-        display: none;
-    }
-
-    .alinearSeccion {
-        flex-wrap: wrap;
-    }
-
-    .footer {
-        flex-direction: column;
-    }
-
-    .aromaterapia__imagenes {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
+  .menu {
+    width: auto;
+    position: inherit; }
+  .menu__items {
+    flex-direction: column;
+    align-items: flex-end; }
+  .logoHeader {
+    display: none; }
+  .alinearSeccion {
+    flex-wrap: wrap; }
+  .footer {
+    flex-direction: column; }
+  .aromaterapia__imagenes {
+    display: flex;
+    flex-direction: column;
+    margin: auto; }
     .aromaterapia__imagenes img {
-        padding: 1rem 2rem;
-        margin: auto;
-    }
-
-    .novedades__contenido {
-        flex-direction: column;
-    }
+      padding: 1rem 2rem;
+      margin: auto; }
+  .novedades__contenido {
+    flex-direction: column; }
     .novedades__contenido video {
-        width: 100%;
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
-}
+      width: 100%; }
+  h2 {
+    font-size: 2rem; } }
 
 @media only screen and (max-width: 720px) {
+  .aromaterapia__imagenes {
+    display: flex;
+    flex-direction: column; }
     .aromaterapia__imagenes img {
-        width: 100%;
-    }
-
-    .aromaterapia__imagenes {
-        display: flex;
-        flex-direction: column;
-    }
-    .aromaterapia__imagenes img {
-        width: 100%;
-    }
-
-    .novedades__contenido {
-        flex-direction: column;
-    }
-
-
-}
-
+      width: 100%; }
+  .novedades__contenido {
+    flex-direction: column; } }
