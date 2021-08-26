@@ -1,0 +1,64 @@
+/* Encabezado */
+
+.fondoHeader {
+    background-image: url(../img/fondoHeader.png);
+    background-position: left bottom;
+    width: 100%;
+
+    .navbar-brand {
+        color: #ffffff;
+    }
+}
+
+.fondoOpaco{
+    background-color: #00000050;
+    width: 100%;
+}
+
+.menu {
+    font-family:'Montserrat', sans-serif;
+    width: 100%;
+    position: fixed;
+    background-color: #7d7ec2e6;
+    z-index: 2;
+    padding: 0;
+
+    .menu__items {
+        margin-bottom: 0;
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+        margin: 0;
+
+        li {
+            height: 100%;
+            padding: 0.5rem;
+
+            a{
+                font-size: 1.3rem;
+                color: white;
+                text-decoration: none;
+                text-align: center;
+                padding: 0 1rem;
+                
+            }
+        }
+
+        li:hover {
+            background-image: radial-gradient(#b3d26d, rgba(0, 0, 0, 0.467));
+            text-decoration: none;
+            border-radius: 1rem;
+            text-align: center;
+        }
+    }
+}
+
+.logoHeader {
+    padding-top: 4rem;
+    width: 50vh;
+}
+
+h1 {
+    animation-duration: 3s;
+    animation-name: slide_left;
+  }

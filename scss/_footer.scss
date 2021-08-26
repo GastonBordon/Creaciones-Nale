@@ -1,0 +1,40 @@
+/* Footer */
+
+.footer {
+    background-image: linear-gradient(to bottom, #7d7ec278, #7d7ec2e6); 
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.footer__informacion {
+    padding: 1rem;
+
+    li {
+        margin-top: 1rem;
+        list-style-type: none;
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.footer__contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 25px;
+        height: 25px;
+        margin-right: 1rem;
+    }
+}

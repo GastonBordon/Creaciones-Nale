@@ -1,0 +1,55 @@
+/* Page Productos */
+
+.catalogoProductos {
+    padding-top: 1rem;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "lumbar cervical baby"
+                        "combo mantalmohadon mantaPeso"
+    
+}
+
+.lumbar {
+    grid-area: lumbar;
+}
+.cervical {
+    grid-area: cervical;
+}
+.baby {
+    grid-area: baby;
+}
+.combo {
+    grid-area: combo;
+}
+.mantalmohadon {
+    grid-area: mantalmohadon;
+}
+.mantaPeso {
+    grid-area: mantaPeso;
+}
+
+/* Tabla de productos*/
+
+.productoTabla {
+    background-color: rgb(48, 148, 48);
+}
+
+th {
+    font-weight: 900;
+    font-size: 25px;
+    background-color: darksalmon;
+}
+
+td {
+    background-color: rgb(143, 188, 143);
+}
+
+.tabla {
+    
+    li {
+    list-style: none;
+    }
+}
