@@ -46,6 +46,10 @@
   padding-top: 4rem;
   width: 50vh; }
 
+h1 {
+  animation-duration: 3s;
+  animation-name: slide_left; }
+
 /* Seccion Productos Destacados */
 .alinearSeccion {
   display: flex;
