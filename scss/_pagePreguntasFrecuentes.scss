@@ -1,0 +1,21 @@
+/* Page Preguntas Frecuentes */
+
+.preguntasFrecuentes {
+    margin-left: 4rem;
+
+    ul {
+        margin-top: 2rem;
+        margin-bottom: 0;
+
+        li a {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 1.3rem; 
+        }
+    }
+}
+
+.preguntasFrecuentes .collapse .card-body {
+    font-size: 1.2rem;
+    background-color: #7d7ec2e6;
+}

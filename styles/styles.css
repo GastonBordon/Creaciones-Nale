@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0; }
 
-/* Encabezado Index */
+/* Encabezado */
 .fondoHeader {
   background-image: url(../img/fondoHeader.png);
   background-position: left bottom;
@@ -30,17 +30,17 @@
     .menu .menu__items li {
       height: 100%;
       padding: 0.5rem; }
+      .menu .menu__items li a {
+        font-size: 1.3rem;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 0 1rem; }
     .menu .menu__items li:hover {
       background-image: radial-gradient(#b3d26d, rgba(0, 0, 0, 0.467));
       text-decoration: none;
       border-radius: 1rem;
       text-align: center; }
-    .menu .menu__items a {
-      font-size: 1.3rem;
-      color: white;
-      text-decoration: none;
-      text-align: center;
-      padding: 0 1rem; }
 
 .logoHeader {
   padding-top: 4rem;
@@ -181,7 +181,6 @@ button:hover {
   cursor: pointer;
   background-color: #b3d26c; }
 
-/* Utilidades */
 .alinearContenido {
   display: flex;
   justify-content: space-around;

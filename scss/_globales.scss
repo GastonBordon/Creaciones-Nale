@@ -1,0 +1,70 @@
+/* Globales */  
+
+main {
+    background-image: url(../img/fondoMain.png);
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-color: #b3d26c;
+    z-index: 1;
+    width: 100%;
+}
+img {
+    width: 500  px;
+    height: 300px;
+}
+h1 {
+    font-size: 60px;
+    color: #d9ff82;
+    font-family: 'Monoton', cursive;  
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 3rem ;
+    padding-top: 4rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-align:center;
+}
+
+p {
+    padding: 2rem;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+span {
+    font-family:'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+button {
+    background-image: radial-gradient(#b3d26d, rgba(0, 0, 0, 0.466));   
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #b3d26c;
+}
+
+.alinearContenido {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+    align-items: center;
+}

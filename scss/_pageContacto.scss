@@ -1,0 +1,19 @@
+
+/* Page Contacto */
+
+form {
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem
+}
+
+input {
+    transition: all 1s;
+    width: 150px;
+    height: 20px;
+
+}
+
+input:focus {
+    width: 200px;
+    height: 30px;
+}
