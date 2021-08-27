@@ -1,34 +1,14 @@
 /* Page Productos */
 
-.catalogoProductos {
-    padding-top: 1rem;
-    display: grid;
-    grid-column-gap: 20px;
-    grid-row-gap: 30px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "lumbar cervical baby"
-                        "combo mantalmohadon mantaPeso"
-    
-}
+.container {
+    .productosDestacados {
+        img {
+            width: 100%;
+        }
 
-.lumbar {
-    grid-area: lumbar;
-}
-.cervical {
-    grid-area: cervical;
-}
-.baby {
-    grid-area: baby;
-}
-.combo {
-    grid-area: combo;
-}
-.mantalmohadon {
-    grid-area: mantalmohadon;
-}
-.mantaPeso {
-    grid-area: mantaPeso;
+    }
+
+   
 }
 
 /* Tabla de productos*/
