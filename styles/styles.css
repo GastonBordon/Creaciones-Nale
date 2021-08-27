@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0; }
 
+/***COLORES***/
+/***FUENTES***/
+/***CONTENEDOR***/
 /* Encabezado */
 .fondoHeader {
   background-image: url(../img/fondoHeader.png);
@@ -53,7 +56,8 @@ h1 {
 /* Seccion Productos Destacados */
 .alinearSeccion {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
   padding: 1rem 2rem;
   flex-wrap: wrap; }
   .alinearSeccion img {
@@ -186,18 +190,18 @@ button:hover {
   background-color: #b3d26d; }
 
 .alinearContenido {
+  padding-bottom: 1rem;
   display: flex;
   justify-content: space-around;
-  padding-bottom: 1rem;
   align-items: center; }
 
 /* Footer */
 .footer {
   background-image: linear-gradient(to bottom, #7d7ec278, #7d7ec2e6);
+  height: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%; }
+  justify-content: space-around;
+  align-items: center; }
 
 .footer__informacion {
   padding: 1rem; }
@@ -213,7 +217,7 @@ button:hover {
 
 .footer__contacto {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center; }
   .footer__contacto img {
     width: 25px;
@@ -249,7 +253,7 @@ td {
 /* Page Nosotros */
 .seccionNosotros {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center; }
 
 .seccionNosotros__lista {

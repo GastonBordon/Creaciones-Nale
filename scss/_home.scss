@@ -2,8 +2,7 @@
 /* Seccion Productos Destacados */
 
 .alinearSeccion {
-    display: flex;
-    justify-content: space-evenly;
+   @include contenidoCentrado;
     padding: 1rem 2rem;
     flex-wrap: wrap;
 

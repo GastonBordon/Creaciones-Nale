@@ -62,8 +62,6 @@ button:hover {
 }
 
 .alinearContenido {
-    display: flex;
-    justify-content: space-around;
     padding-bottom: 1rem;
-    align-items: center;
+    @include contenidoCentrado;
 }

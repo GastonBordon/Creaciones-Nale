@@ -1,9 +1,7 @@
 /* Page Nosotros */
 
 .seccionNosotros {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    @include contenidoCentrado;
 }
 
 .seccionNosotros__lista {

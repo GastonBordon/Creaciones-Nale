@@ -3,10 +3,8 @@
 
 .footer {
     background-image: linear-gradient(to bottom, #7d7ec278, $colorPrincipal); 
-    display: flex;  
-    justify-content: space-between;
-    align-items: center;
     height: 100%;
+    @include contenidoCentrado;
 }
 
 .footer__informacion {
@@ -29,9 +27,7 @@
 }
 
 .footer__contacto {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include contenidoCentrado;
 
     img {
         width: 25px;
