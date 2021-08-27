@@ -6,7 +6,7 @@
     width: 100%;
 
     .navbar-brand {
-        color: #ffffff;
+        color: $colorSecundario;
     }
 }
 
@@ -16,10 +16,10 @@
 }
 
 .menu {
-    font-family:'Montserrat', sans-serif;
+    font-family: $font-family;
     width: 100%;
     position: fixed;
-    background-color: #7d7ec2e6;
+    background-color: $colorPrincipal;
     z-index: 2;
     padding: 0;
 
@@ -45,7 +45,7 @@
         }
 
         li:hover {
-            background-image: radial-gradient(#b3d26d, rgba(0, 0, 0, 0.467));
+            background-image: radial-gradient($colorSecundario, rgba(0, 0, 0, 0.467));
             text-decoration: none;
             border-radius: 1rem;
             text-align: center;

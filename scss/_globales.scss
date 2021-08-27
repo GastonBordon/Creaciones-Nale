@@ -5,7 +5,6 @@ main {
     background-position: bottom;
     background-attachment: fixed;
     background-repeat: repeat;
-    background-color: #b3d26c;
     z-index: 1;
     width: 100%;
 }
@@ -15,19 +14,19 @@ img {
 }
 h1 {
     font-size: 60px;
-    color: #d9ff82;
+    color: $colorSecundario;
     font-family: 'Monoton', cursive;  
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font-family;
     text-align: center;
     font-size: 3rem ;
     padding-top: 4rem;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font-family;
     font-size: 1.2rem;
     text-align:center;
 }
@@ -35,18 +34,18 @@ h3 {
 p {
     padding: 2rem;
     line-height: 1.6;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font-family;
 }
 
 span {
-    font-family:'Montserrat', sans-serif;
+    font-family: $font-family;
     font-size: 2rem;
     font-weight: 900;
     color: #ffffff;
 }
 
 button {
-    background-image: radial-gradient(#b3d26d, rgba(0, 0, 0, 0.466));   
+    background-image: radial-gradient($colorSecundario, rgba(0, 0, 0, 0.466));   
     font-weight: 400;
     text-decoration: none;
     font-size: 1.2rem;
@@ -59,7 +58,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    background-color: #b3d26c;
+    background-color: $colorSecundario;
 }
 
 .alinearContenido {

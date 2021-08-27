@@ -1,7 +1,8 @@
+
 /* Footer */
 
 .footer {
-    background-image: linear-gradient(to bottom, #7d7ec278, #7d7ec2e6); 
+    background-image: linear-gradient(to bottom, #7d7ec278, $colorPrincipal); 
     display: flex;  
     justify-content: space-between;
     align-items: center;

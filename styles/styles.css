@@ -8,14 +8,14 @@
   background-position: left bottom;
   width: 100%; }
   .fondoHeader .navbar-brand {
-    color: #ffffff; }
+    color: #b3d26d; }
 
 .fondoOpaco {
   background-color: #00000050;
   width: 100%; }
 
 .menu {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   width: 100%;
   position: fixed;
   background-color: #7d7ec2e6;
@@ -86,7 +86,7 @@ h1 {
   .productosDestacados__productos li {
     text-align: left;
     list-style-type: none;
-    font-family: 'Montserrat', sans-serif; }
+    font-family: "Montserrat", sans-serif; }
 
 /* Seccion Aromaterapia */
 .aromaterapia__imagenes {
@@ -101,7 +101,7 @@ h1 {
   padding: 2rem; }
 
 .aromaterapia p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   border-style: solid;
   border-radius: 2rem;
   border-width: 0.3rem;
@@ -119,12 +119,12 @@ h1 {
   align-items: center; }
   .novedades__contenido p {
     padding-left: 1rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
     font-weight: 500; }
   .novedades__contenido ul li {
     margin-left: 2rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin-top: 2rem; }
   .novedades__contenido video {
     width: 450px; }
@@ -135,7 +135,6 @@ main {
   background-position: bottom;
   background-attachment: fixed;
   background-repeat: repeat;
-  background-color: #b3d26c;
   z-index: 1;
   width: 100%; }
 
@@ -145,27 +144,27 @@ img {
 
 h1 {
   font-size: 60px;
-  color: #d9ff82;
+  color: #b3d26d;
   font-family: 'Monoton', cursive; }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   font-size: 3rem;
   padding-top: 4rem; }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   text-align: center; }
 
 p {
   padding: 2rem;
   line-height: 1.6;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   font-weight: 900;
   color: #ffffff; }
@@ -183,7 +182,7 @@ button {
 
 button:hover {
   cursor: pointer;
-  background-color: #b3d26c; }
+  background-color: #b3d26d; }
 
 .alinearContenido {
   display: flex;
@@ -250,15 +249,22 @@ button:hover {
 
 /* Tabla de productos*/
 .productoTabla {
-  background-color: #309430; }
+  background-color: #7d7ec2e6;
+  border: solid;
+  text-align: center; }
 
 th {
+  border: solid;
+  text-align: center;
   font-weight: 900;
   font-size: 25px;
-  background-color: darksalmon; }
+  background-color: #7d7ec2e6; }
 
 td {
-  background-color: darkseagreen; }
+  font-weight: 700;
+  text-align: center;
+  border: solid;
+  background-color: #b3d26d; }
 
 .tabla li {
   list-style: none; }
@@ -277,7 +283,7 @@ td {
     .seccionNosotros__lista ul li {
       line-height: 2rem;
       text-align: justify;
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-size: 1.5rem;
       font-weight: 500; }
 
@@ -312,7 +318,7 @@ td {
 
 /* Page Contacto */
 form {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 2rem; }
 
 input {
@@ -331,7 +337,7 @@ input:focus {
     margin-top: 2rem;
     margin-bottom: 0; }
     .preguntasFrecuentes ul li a {
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-weight: 700;
       font-size: 1.3rem; }
 

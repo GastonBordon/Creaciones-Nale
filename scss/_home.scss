@@ -44,7 +44,7 @@
     li {
         text-align: left;
         list-style-type: none;
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font-family;
     }
 }
 
@@ -68,7 +68,7 @@
     }
 
     p {
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font-family;
         border-style: solid;
         border-radius: 2rem;
         border-width: 0.3rem;
@@ -92,7 +92,7 @@
    
     p {
         padding-left: 1rem;
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font-family;
         font-size: 1.5rem;
         font-weight: 500;
     }
@@ -101,7 +101,7 @@
         
         li {
         margin-left: 2rem;
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font-family;
         margin-top: 2rem;
         }
     }

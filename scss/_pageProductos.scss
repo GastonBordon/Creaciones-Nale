@@ -34,21 +34,29 @@
 /* Tabla de productos*/
 
 .productoTabla {
-    background-color: rgb(48, 148, 48);
+    background-color: $colorPrincipal;
+    border: solid;
+    text-align: center;
 }
 
 th {
+    border: solid;
+    text-align: center;
     font-weight: 900;
     font-size: 25px;
-    background-color: darksalmon;
+    background-color: $colorPrincipal;
+    
 }
 
 td {
-    background-color: rgb(143, 188, 143);
+    font-weight: 700;
+    text-align: center;
+    border: solid;
+    background-color: $colorSecundario;
 }
 
 .tabla {
-    
+
     li {
     list-style: none;
     }
