@@ -1,14 +1,18 @@
-/***COLORES***/
+// COLORES //
 $colorPrincipal: #7d7ec2e6;
 $colorSecundario: #b3d26d;
 
-/***FUENTES***/
+// FUENTES //
 $font-family: 'Montserrat', sans-serif;
 
-/***CONTENEDOR***/
+// CONTENEDOR //
 
 @mixin contenidoCentrado {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
+
+
+

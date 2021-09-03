@@ -45,7 +45,7 @@
         }
 
         li:hover {
-            background-image: radial-gradient($colorSecundario, rgba(0, 0, 0, 0.467));
+            background-color: $colorSecundario;
             text-decoration: none;
             border-radius: 1rem;
             text-align: center;
@@ -54,11 +54,6 @@
 }
 
 .logoHeader {
-    padding-top: 4rem;
+    padding-top: 2rem + 2rem;
     width: 50vh;
 }
-
-h1 {
-    animation-duration: 3s;
-    animation-name: slide_left;
-  }

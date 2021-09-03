@@ -1,6 +1,8 @@
 
 /* Seccion Productos Destacados */
 
+$fondo: gris;
+
 .alinearSeccion {
    @include contenidoCentrado;
     padding: 1rem 2rem;
@@ -12,7 +14,15 @@
 }
 
 .productosDestacados {
-    background-color: rgb(209, 206, 206);
+            // EJEMPLO CONDICIONAL IF //
+    @if ($fondo == gris) {
+        background-color: rgb(200, 198, 198);              
+    }   @else if ($fondo == blanco) {
+        background-color: white;
+    }   @else {
+        background-color: $colorPrincipal;
+    }
+
     display: flex;
     flex-direction: column;
     border: solid;

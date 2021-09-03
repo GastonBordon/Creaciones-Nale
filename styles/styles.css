@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0; }
 
-/***COLORES***/
-/***FUENTES***/
-/***CONTENEDOR***/
 /* Encabezado */
 .fondoHeader {
   background-image: url(../img/fondoHeader.png);
@@ -40,7 +37,7 @@
         text-align: center;
         padding: 0 1rem; }
     .menu .menu__items li:hover {
-      background-image: radial-gradient(#b3d26d, rgba(0, 0, 0, 0.467));
+      background-color: #b3d26d;
       text-decoration: none;
       border-radius: 1rem;
       text-align: center; }
@@ -48,10 +45,6 @@
 .logoHeader {
   padding-top: 4rem;
   width: 50vh; }
-
-h1 {
-  animation-duration: 3s;
-  animation-name: slide_left; }
 
 /* Seccion Productos Destacados */
 .alinearSeccion {
@@ -64,7 +57,7 @@ h1 {
     width: 100%; }
 
 .productosDestacados {
-  background-color: #d1cece;
+  background-color: #c8c6c6;
   display: flex;
   flex-direction: column;
   border: solid;
@@ -150,7 +143,8 @@ img {
 h1 {
   font-size: 60px;
   color: #b3d26d;
-  font-family: 'Monoton', cursive; }
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900; }
 
 h2 {
   font-family: "Montserrat", sans-serif;
@@ -175,7 +169,7 @@ span {
   color: #ffffff; }
 
 button {
-  background-image: radial-gradient(#b3d26d, rgba(0, 0, 0, 0.466));
+  background-color: #b3d26d;
   font-weight: 400;
   text-decoration: none;
   font-size: 1.2rem;
@@ -187,7 +181,7 @@ button {
 
 button:hover {
   cursor: pointer;
-  background-color: #b3d26d; }
+  background-color: #81a03b; }
 
 .alinearContenido {
   padding-bottom: 1rem;
