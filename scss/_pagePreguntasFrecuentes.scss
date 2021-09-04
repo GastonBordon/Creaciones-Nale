@@ -1,9 +1,11 @@
 /* Page Preguntas Frecuentes */
 
 .preguntasFrecuentes {
-    margin-left: 2rem + 2rem;
+
+    
 
     ul {
+        padding-top: 4rem;
         margin-top: 2rem;
         margin-bottom: 0;
 
@@ -13,9 +15,4 @@
             font-size: 1.3rem; 
         }
     }
-}
-
-.preguntasFrecuentes .collapse .card-body {
-    font-size: 1.2rem;
-    background-color: $colorPrincipal;
 }

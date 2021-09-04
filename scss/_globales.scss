@@ -2,6 +2,8 @@
 
 main {
     width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, $colorSecundario, #b3d26d75);
 }
 
 img {
@@ -17,12 +19,14 @@ h1 {
 }
 
 h2 {
+    color: $colorSecundario;
     background-color: $colorPrincipal;
     font-family: $font-family;
     text-align: center;
     font-size: 2rem + 1rem ;
     padding: 1rem;
-    margin-top: 4rem;
+    position: relative;
+    top: 4rem;
 }
 
 h3 {
@@ -44,7 +48,7 @@ span {
     color: $colorSecundario;
 }
 
-button {
+.boton {
     background-color: $colorPrincipal;   
     font-weight: 400;
     text-decoration: none;
@@ -55,7 +59,7 @@ button {
     text-align: center;
 }
 
-button:hover {
+.boton:hover {
     cursor: pointer;
     background-color: $colorPrincipal - 50;
 }

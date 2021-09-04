@@ -6,7 +6,7 @@ $fondo: blanco;
 .alinearSeccion {
    @include contenidoCentrado;
     flex-wrap: wrap;
-
+    padding-top: 4rem;
     img {
         width: 100%;
     }
@@ -27,20 +27,17 @@ $fondo: blanco;
     border: solid $colorPrincipal;
     margin: 1rem;
     transition: all 0.5s;
-    padding-left: 0;
 
     img {
         width: 45vh;
         margin: 0.5rem;
         position: relative;
-        z-index: 1;
     }
 }
 
 .productosDestacados:hover {
     position: relative;
     transform: scale(1.1);
-    z-index: 2;
     margin: 0, 1rem;
 }
 
@@ -64,10 +61,7 @@ $fondo: blanco;
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
-
-    img {
-        padding-top: 1rem;
-    }
+    padding-top: 6rem;
 }
 
 .aromaterapia {
@@ -87,10 +81,12 @@ $fondo: blanco;
 /* Novedades */
 
 .novedades {
+    
     padding-bottom: 2rem;
 }
 
 .novedades__contenido {
+    padding-top: 4rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;

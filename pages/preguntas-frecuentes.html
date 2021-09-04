@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Lumbrar, Cervical, Almohadilla, Aromaterapia, Termoterapia, Dolores, Estrés, Preguntas, Frecuentes">
+    <meta name="keywords"
+        content="Lumbrar, Cervical, Almohadilla, Aromaterapia, Termoterapia, Dolores, Estrés, Preguntas, Frecuentes">
     <meta name="descripcion" content="preguntas que nos realizan frecuentemente: medios de pago, envíos">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -50,53 +51,66 @@
         <section class="preguntasFrecuentes">
             <h2>Preguntas Frecuentes:</h2>
             <ul>
-                <li><a class="btn link" data-toggle="collapse" href="#collapseExample" role="button"
-                        aria-expanded="false" aria-controls="collapseExample">¿Cuales son los medios de pago?</a></li>
-                <div class="collapse" id="collapseExample">
-                    <div class="card card-body">
-                        <p>Aceptamos efectivo o Mercadopago.</p>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ¿Cuales son los medios de pago?
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Aceptamos efectivo o Mercadopago</a>
+                        </div>
                     </div>
-                </div>
-                <li><a class="btn link" data-toggle="collapse" href="#collapseExample1" role="button"
-                        aria-expanded="false" aria-controls="collapseExample">¿Hacen envíos a todo el país?</a></li>
-                <div class="collapse" id="collapseExample1">
-                    <div class="card card-body">
-                        <p>Realizamos envíos a todo el país a través del correo.</p>
-                    </div>
-                </div>
-                <li><a class="btn link" data-toggle="collapse" href="#collapseExample2" role="button"
-                        aria-expanded="false" aria-controls="collapseExample">¿Los productos pueden ser
-                        personalizados?</a></li>
-                <div class="collapse" id="collapseExample2">
-                    <div class="card card-body">
-                        <p>Todos nuestros productos tienen su diseño personalizado si así se lo requiere.</p>
-                    </div>
-                </div>
-                <li><a class="btn link" data-toggle="collapse" href="#collapseExample3" role="button"
-                        aria-expanded="false" aria-controls="collapseExample">¿Las almohadillas se pueden calentar?</a>
                 </li>
-                <div class="collapse" id="collapseExample3">
-                    <div class="card card-body">
-                        <p>En microondas por dos minutos, o hasta conseguir temperatura deseada.</p>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Hacen envios a todo el país?</button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Realizamos envíos a todo el país a través del correo</a>
+                        </div>
                     </div>
-                </div>
-                <li><a class="btn link" data-toggle="collapse" href="#collapseExample4" role="button"
-                        aria-expanded="false" aria-controls="collapseExample">¿Las almohadillas se pueden guardar en el
-                        frezzer?</a></li>
-                <div class="collapse" id="collapseExample4">
-                    <div class="card card-body">
-                        <p>Para enfriarla, colocar dentro de una bolsa de nylon por una hora.</p>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Los productos pueden ser personalizados?</button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Todos nuestros productos tienen su diseño personalizado si así se lo requiere</a>
+                        </div>
                     </div>
-                </div>
-                <li><a class="btn link" data-toggle="collapse" href="#collapseExample5" role="button"
-                        aria-expanded="false" aria-controls="collapseExample">¿Venden al por mayor?</a></li>
-                <div class="collapse" id="collapseExample5">
-                    <div class="card card-body">
-                        <p>Para compras al por mayor, el minimo de compra son 10 unidades.</p>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Las almohadillas se pueden calentar?</button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">En microondas por dos minutos, o hasta conseguir temperatura deseada</a>
+                        </div>
                     </div>
-                </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Las almohadillas se pueden guardar en el
+                        frezzer?</button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Para enfriarla, colocar dentro de una bolsa de nylon por una hora</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Venden al por mayor?</button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Para compras al por mayor, el minimo de compra son 10 unidades</a>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </section>
+
     </main>
     <footer class="footer">
         <div class="footer__informacion footer__contacto">
