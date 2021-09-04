@@ -1,7 +1,7 @@
 
 /* Seccion Productos Destacados */
 
-$fondo: gris;
+$fondo: blanco;
 
 .alinearSeccion {
    @include contenidoCentrado;
@@ -25,7 +25,7 @@ $fondo: gris;
 
     display: flex;
     flex-direction: column;
-    border: solid;
+    border: solid $colorPrincipal;
     margin: 1rem;
     transition: all 0.5s;
     padding-left: 0;
