@@ -5,7 +5,6 @@ $fondo: blanco;
 
 .alinearSeccion {
    @include contenidoCentrado;
-    padding: 1rem 2rem;
     flex-wrap: wrap;
 
     img {
@@ -72,10 +71,6 @@ $fondo: blanco;
 }
 
 .aromaterapia {
-
-    h2 {
-    padding: 2rem;
-    }
 
     p {
         font-family: $font-family;

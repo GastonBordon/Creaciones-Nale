@@ -1,11 +1,6 @@
 /* Globales */  
 
 main {
-    background-image: url(../img/fondoMain.png);
-    background-position: bottom;
-    background-attachment: fixed;
-    background-repeat: repeat;
-    z-index: 1;
     width: 100%;
 }
 
@@ -22,10 +17,12 @@ h1 {
 }
 
 h2 {
+    background-color: $colorPrincipal;
     font-family: $font-family;
     text-align: center;
     font-size: 2rem + 1rem ;
-    padding-top: 2rem + 2rem;
+    padding: 1rem;
+    margin-top: 4rem;
 }
 
 h3 {
@@ -44,7 +41,7 @@ span {
     font-family: $font-family;
     font-size: 2rem;
     font-weight: 900;
-    color: #ffffff;
+    color: $colorSecundario;
 }
 
 button {
@@ -52,8 +49,7 @@ button {
     font-weight: 400;
     text-decoration: none;
     font-size: 1.2rem;
-    font-weight: 900;
-    padding: 5px;
+    padding: 10px;
     border-style: none;
     border-radius: 1rem;
     text-align: center;
@@ -61,7 +57,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    background-color: $colorSecundario - 50;
+    background-color: $colorPrincipal - 50;
 }
 
 .alinearContenido {

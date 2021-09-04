@@ -4,6 +4,8 @@
     background-image: url(../img/fondoHeader.png);
     background-position: left bottom;
     width: 100%;
+    height: 600px;
+    margin-bottom: 2rem + 2rem;
 
     .navbar-brand {
         color: $colorSecundario;
@@ -11,8 +13,9 @@
 }
 
 .fondoOpaco{
-    background-color: #00000050;
-    width: 100%;
+    background:  rgba(0, 0, 0, 0.38);
+    backdrop-filter: blur(2px);   // Desenfoque de imagen //
+    height: 100%;
 }
 
 .menu {
@@ -44,11 +47,8 @@
             }
         }
 
-        li:hover {
-            background-color: $colorSecundario;
-            text-decoration: none;
-            border-radius: 1rem;
-            text-align: center;
+        li a:hover {
+            color: black;
         }
     }
 }

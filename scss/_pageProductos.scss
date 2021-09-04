@@ -5,10 +5,7 @@
         img {
             width: 100%;
         }
-
     }
-
-   
 }
 
 /* Tabla de productos*/
@@ -17,6 +14,7 @@
     background-color: $colorPrincipal;
     border: solid;
     text-align: center;
+    padding: 1rem;
 }
 
 th {
@@ -36,8 +34,14 @@ td {
 }
 
 .tabla {
+    width: 100%;
+        li {
+            list-style: none;
+        }
 
-    li {
-    list-style: none;
-    }
+        table {
+            margin: 2rem;
+        }
 }
+
+
