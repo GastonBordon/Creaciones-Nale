@@ -1,7 +1,10 @@
 /* Page Productos */
 
 .container {
+    padding-top: 4rem;
+    padding-left: 0;
     .productosDestacados {
+        padding-left: 0;
         img {
             width: 100%;
         }
@@ -40,7 +43,10 @@ td {
         }
 
         table {
-            margin: 2rem;
+            margin: 6rem 2rem 0 2rem;
+            padding-bottom: 2rem;
+            border-collapse: inherit;
+            
         }
 }
 

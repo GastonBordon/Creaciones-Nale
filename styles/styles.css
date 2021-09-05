@@ -212,8 +212,13 @@ span {
     margin-right: 1rem; }
 
 /* Page Productos */
-.container .productosDestacados img {
-  width: 100%; }
+.container {
+  padding-top: 4rem;
+  padding-left: 0; }
+  .container .productosDestacados {
+    padding-left: 0; }
+    .container .productosDestacados img {
+      width: 100%; }
 
 /* Tabla de productos*/
 .productoTabla {
@@ -240,7 +245,9 @@ td {
   .tabla li {
     list-style: none; }
   .tabla table {
-    margin: 2rem; }
+    margin: 6rem 2rem 0 2rem;
+    padding-bottom: 2rem;
+    border-collapse: inherit; }
 
 /* Page Nosotros */
 .seccionNosotros {
@@ -310,7 +317,8 @@ input:focus {
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding: 6rem;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  margin-top: 4rem; }
   .preguntasFrecuentes ul li {
     list-style: none;
     font-family: "Montserrat", sans-serif;
@@ -318,13 +326,20 @@ input:focus {
     font-size: 1.3rem;
     padding: 2rem; }
   .preguntasFrecuentes ul .dropdown button {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.38);
     border: none;
     color: white;
     font-weight: 600; }
-  .preguntasFrecuentes ul .dropdown .dropdown-item {
-    background-color: transparent;
-    border: none; }
+  .preguntasFrecuentes ul .dropdown .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.38);
+    color: white;
+    border: none;
+    margin: 0;
+    padding: 0; }
+    .preguntasFrecuentes ul .dropdown .dropdown-menu .dropdown-item {
+      color: white;
+      font-weight: 600;
+      font-size: 1.2rem; }
 
 /* Media Queries */
 @media only screen and (max-width: 990px) {
