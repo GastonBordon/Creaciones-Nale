@@ -1,18 +1,32 @@
 /* Page Preguntas Frecuentes */
 
 .preguntasFrecuentes {
-
     
-
     ul {
-        padding-top: 4rem;
-        margin-top: 2rem;
+        background-image: url(../img/fondopreguntasf.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 6rem;
         margin-bottom: 0;
 
-        li a {
+        li{
+            list-style: none;
             font-family: $font-family;
             font-weight: 700;
             font-size: 1.3rem; 
+            padding: 2rem;
+        }
+
+        .dropdown button {
+            background-color: transparent;
+            border: none;
+            color: white;
+            font-weight: 600;
+        }
+        .dropdown .dropdown-item {
+            background-color: transparent;
+            border: none;
         }
     }
 }
