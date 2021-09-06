@@ -2,27 +2,33 @@
 
 .seccionNosotros {
     @include contenidoCentrado;
+    text-align: center;
 }
 
 .seccionNosotros__lista {
+    padding-top: 5rem;
     border-right: solid;
     margin-right: 2rem;
+    margin-top: 4rem;
 
     ul {
         padding: 2rem;
 
         li {
-            line-height: 2rem;
+            padding-top: 2rem;
             text-align: justify;
             font-family: $font-family;
-            font-size: 1.5rem;
+            font-size: 1rem;
             font-weight: 500;
         }
+    }
+    p {
+        text-align: left;
     }
 }
 
 .seccionNosotros__comedor {
-    padding: 2rem;
+    padding: 4rem;
     margin-top: 2rem + 2rem;
 }
 
@@ -36,9 +42,7 @@
 }
 
 .ubicacion__bordes {
-    border:solid;
-    border-radius: 2rem;
-    margin: 2rem;
+    margin: 6rem;
     padding-bottom: 2rem;
     background-color: rgba(170, 169, 169, 0.7);
 }
@@ -48,6 +52,10 @@
     justify-content: space-around;
     align-items: center;
     font-size: 1.3rem;
+
+    h3 {
+        align-items: center;
+    }
 }
 
 .ubicacion__ubicacionSe {

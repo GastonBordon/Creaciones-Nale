@@ -3,6 +3,7 @@
 .fondoHeader {
     background-image: url(../img/fondoHeader.png);
     background-position: left bottom;
+    
     width: 100%;
     height: 600px;
     .navbar-brand {
@@ -12,7 +13,6 @@
 
 .fondoOpaco{
     background:  rgba(0, 0, 0, 0.38);
-    backdrop-filter: blur(2px);   // Desenfoque de imagen //
     height: 100%;
 }
 
