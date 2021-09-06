@@ -3,13 +3,14 @@
 .seccionNosotros {
     @include contenidoCentrado;
     text-align: center;
+    padding-top: 4rem;
+    background-color: white;
 }
 
 .seccionNosotros__lista {
     padding-top: 5rem;
     border-right: solid;
     margin-right: 2rem;
-    margin-top: 4rem;
 
     ul {
         padding: 2rem;
@@ -36,15 +37,17 @@
     padding-bottom: 2rem;
 
     h3 {
-        margin-top: 2rem + 2rem;
         font-size: 1.5rem;
+    }
+
+    h2 {
+        margin-bottom: 4rem;
     }
 }
 
 .ubicacion__bordes {
-    margin: 6rem;
-    padding-bottom: 2rem;
-    background-color: rgba(170, 169, 169, 0.7);
+
+    background-color: white;
 }
 
 .ubicacion__ubicacionBa {
@@ -63,4 +66,8 @@
     justify-content: center;
     align-items: center;
     font-size: 1.3rem;
+}
+
+h2 {
+    background-color: #7d7ec2;
 }

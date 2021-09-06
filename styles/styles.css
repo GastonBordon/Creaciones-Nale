@@ -251,13 +251,14 @@ td {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  text-align: center; }
+  text-align: center;
+  padding-top: 4rem;
+  background-color: white; }
 
 .seccionNosotros__lista {
   padding-top: 5rem;
   border-right: solid;
-  margin-right: 2rem;
-  margin-top: 4rem; }
+  margin-right: 2rem; }
   .seccionNosotros__lista ul {
     padding: 2rem; }
     .seccionNosotros__lista ul li {
@@ -276,13 +277,12 @@ td {
 .ubicacion {
   padding-bottom: 2rem; }
   .ubicacion h3 {
-    margin-top: 4rem;
     font-size: 1.5rem; }
+  .ubicacion h2 {
+    margin-bottom: 4rem; }
 
 .ubicacion__bordes {
-  margin: 6rem;
-  padding-bottom: 2rem;
-  background-color: rgba(170, 169, 169, 0.7); }
+  background-color: white; }
 
 .ubicacion__ubicacionBa {
   display: flex;
@@ -297,6 +297,9 @@ td {
   justify-content: center;
   align-items: center;
   font-size: 1.3rem; }
+
+h2 {
+  background-color: #7d7ec2; }
 
 /* Page Contacto */
 form {
