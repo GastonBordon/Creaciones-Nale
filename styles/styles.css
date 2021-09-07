@@ -130,7 +130,7 @@ img {
   height: 300px; }
 
 h1 {
-  font-size: 60px;
+  font-size: 4rem;
   color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 900; }
@@ -359,9 +359,12 @@ input:focus {
     align-items: flex-end; }
   .logoHeader {
     display: none; }
-  .alinearContenido {
+  h1, span, h2 {
     text-align: center;
-    padding-left: 1rem; }
+    padding: 1rem;
+    width: 100%; }
+  h1 {
+    font-size: 3.5rem; }
   .alinearSeccion {
     flex-wrap: wrap; }
   .footer {

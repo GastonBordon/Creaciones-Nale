@@ -17,9 +17,14 @@
         display: none;
     }
 
-    .alinearContenido {
+    h1, span, h2 {
         text-align: center;
-        padding-left: 1rem;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 3.5rem;
     }
 
     .alinearSeccion {
