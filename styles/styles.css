@@ -359,6 +359,9 @@ input:focus {
     align-items: flex-end; }
   .logoHeader {
     display: none; }
+  .alinearContenido {
+    text-align: center;
+    padding-left: 1rem; }
   .alinearSeccion {
     flex-wrap: wrap; }
   .footer {
@@ -384,4 +387,6 @@ input:focus {
     .aromaterapia__imagenes img {
       width: 100%; }
   .novedades__contenido {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .table {
+    width: 100%; } }

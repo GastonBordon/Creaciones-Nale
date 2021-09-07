@@ -13,9 +13,13 @@
         align-items: flex-end;
     }
 
-
     .logoHeader {
         display: none;
+    }
+
+    .alinearContenido {
+        text-align: center;
+        padding-left: 1rem;
     }
 
     .alinearSeccion {
@@ -63,5 +67,9 @@
 
     .novedades__contenido {
         flex-direction: column;
+    }
+
+    .table {
+        width: 100%;
     }
 }
