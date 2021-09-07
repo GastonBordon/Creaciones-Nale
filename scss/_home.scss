@@ -27,11 +27,12 @@ $fondo: blanco;
     border: solid $colorPrincipal;
     margin: 1rem;
     transition: all 0.5s;
+    padding-right: 0;
 
     img {
-        width: 45vh;
-        margin: 0.5rem;
+        padding: 0.5rem;
         position: relative;
+        width: 100%;
     }
 }
 
