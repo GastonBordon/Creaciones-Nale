@@ -17,9 +17,9 @@
         display: none;
     }
 
-    h1, span, h2 {
+    h1, span {
         text-align: center;
-        padding: 1rem;
+        padding: 0.5rem;
         width: 100%;
     }
 
@@ -27,6 +27,11 @@
         font-size: 3.5rem;
     }
 
+    span {
+        display: inline-block;
+        font-size: 1.5rem;
+    }
+    
     .alinearSeccion {
         flex-wrap: wrap;
     }
