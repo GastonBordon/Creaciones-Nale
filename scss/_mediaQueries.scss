@@ -68,7 +68,42 @@
     .tabla {
         display: none;
     }
+
+    //Page Nosotros //
+
+    .seccionNosotros__lista {
+            border: none;
+    }
+
+    .seccionNosotros__comedor {
+                display: none;
+    }
+    
+    // Page PreguntasFrecuentes //
+
+    .preguntasFrecuentes {
+        
+        ul {
+            width: 100%;
+            text-align: center;
+            padding: 0;
+
+            li {
+                padding:  2rem 0;
+
+                button {
+                    width: 100%;
+                    
+                    p {
+                        width: 100%;
+                    }
+                }
+             }
+        }
+    }
+
 }
+
 
 @media only screen and (max-width: 720px) {
 

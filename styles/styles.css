@@ -256,7 +256,11 @@ td {
   align-items: center;
   text-align: center;
   padding-top: 4rem;
-  background-color: white; }
+  background-color: white;
+  width: 100%; }
+  .seccionNosotros h3 {
+    font-size: 1.5rem;
+    font-weight: 500; }
 
 .seccionNosotros__lista {
   padding-top: 5rem;
@@ -272,6 +276,9 @@ td {
       font-weight: 500; }
   .seccionNosotros__lista p {
     text-align: left; }
+  .seccionNosotros__lista video {
+    width: 100%;
+    height: 100%; }
 
 .seccionNosotros__comedor {
   padding: 4rem;
@@ -347,7 +354,8 @@ input:focus {
     .preguntasFrecuentes ul .dropdown .dropdown-menu .dropdown-item {
       color: white;
       font-weight: 600;
-      font-size: 1.2rem; }
+      font-size: 1.2rem;
+      margin: 0; }
 
 /* Media Queries */
 @media only screen and (max-width: 990px) {
@@ -386,7 +394,21 @@ input:focus {
   h2 {
     font-size: 2rem; }
   .tabla {
-    display: none; } }
+    display: none; }
+  .seccionNosotros__lista {
+    border: none; }
+  .seccionNosotros__comedor {
+    display: none; }
+  .preguntasFrecuentes ul {
+    width: 100%;
+    text-align: center;
+    padding: 0; }
+    .preguntasFrecuentes ul li {
+      padding: 2rem 0; }
+      .preguntasFrecuentes ul li button {
+        width: 100%; }
+        .preguntasFrecuentes ul li button p {
+          width: 100%; } }
 
 @media only screen and (max-width: 720px) {
   .aromaterapia__imagenes {

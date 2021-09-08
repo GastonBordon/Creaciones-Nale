@@ -5,6 +5,12 @@
     text-align: center;
     padding-top: 4rem;
     background-color: white;
+    width: 100%;
+     
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
 }
 
 .seccionNosotros__lista {
@@ -23,8 +29,14 @@
             font-weight: 500;
         }
     }
+
     p {
         text-align: left;
+    }
+
+    video {
+        width: 100%;
+        height: 100%;
     }
 }
 
