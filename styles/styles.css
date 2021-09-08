@@ -384,7 +384,9 @@ input:focus {
     .novedades__contenido video {
       width: 100%; }
   h2 {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  .tabla {
+    display: none; } }
 
 @media only screen and (max-width: 720px) {
   .aromaterapia__imagenes {
