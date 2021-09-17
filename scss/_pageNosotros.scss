@@ -15,7 +15,7 @@
 
 .seccionNosotros__lista {
     padding-top: 5rem;
-    border-right: solid;
+    border-right: solid 1px;
     margin-right: 2rem;
 
     ul {
@@ -57,27 +57,33 @@
     }
 }
 
+.ubicacion__Mapas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
 .ubicacion__bordes {
 
     background-color: white;
-}
 
-.ubicacion__ubicacionBa {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 1.3rem;
-
-    h3 {
+    .ubicacion__ubicacionBa {
+        display: flex;
+        justify-content: space-around;
         align-items: center;
+        font-size: 1.3rem;
+    
+        h3 {
+            align-items: center;
+        }
     }
-}
 
-.ubicacion__ubicacionSe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.3rem;
+    .ubicacion__ubicacionSe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+    }
 }
 
 h2 {

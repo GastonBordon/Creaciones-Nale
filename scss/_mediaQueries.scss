@@ -41,8 +41,7 @@
     }
 
     .aromaterapia__imagenes {
-        display: flex;
-        flex-direction: column;
+        width: 100%;
 
         img {
             padding: 1rem 2rem;
@@ -80,6 +79,11 @@
                 display: none;
     }
     
+    .ubicacion__Mapas {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
     // Page PreguntasFrecuentes //
 
     .preguntasFrecuentes {
