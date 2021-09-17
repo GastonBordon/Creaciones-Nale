@@ -55,11 +55,13 @@ $fondo: blanco;
 /* Seccion Aromaterapia */
 
 .aromaterapia__imagenes {
-    display: flex;
-    justify-content: center;
+    margin-top: 6rem;
     width: 100%;
-    flex-wrap: wrap;
-    padding-top: 6rem;
+
+    img {
+        width: 500px;
+        height: 600px;
+    }
 }
 
 .aromaterapia {
