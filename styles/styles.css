@@ -417,7 +417,9 @@ input:focus {
       .preguntasFrecuentes ul li button {
         width: 100%; }
         .preguntasFrecuentes ul li button p {
-          width: 100%; } }
+          width: 100%;
+          font-size: 8px;
+          font-weight: 500; } }
 
 @media only screen and (max-width: 720px) {
   .aromaterapia__imagenes {
