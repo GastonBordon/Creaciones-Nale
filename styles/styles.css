@@ -440,7 +440,24 @@ form {
       .preguntasFrecuentes ul li button {
         width: 100%; }
         .preguntasFrecuentes ul li button p {
-          width: 100%; } }
+          width: 100%; }
+  form .formulario {
+    padding: 0; }
+    form .formulario input {
+      margin-bottom: 1rem; }
+  form label {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+    margin-right: 1rem; }
+    form label select {
+      margin-bottom: 1rem; }
+  .comentarios label {
+    position: relative;
+    top: 1rem;
+    margin-right: 0; }
+  .comentarios textarea {
+    width: 100%; } }
 
 @media only screen and (max-width: 720px) {
   .aromaterapia__imagenes {
