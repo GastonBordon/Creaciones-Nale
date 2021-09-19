@@ -3,17 +3,55 @@
 
 form {
     font-family: $font-family;
-    padding: 2rem
+    padding: 4rem;
+
+    legend {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        color: white;
+        background-color: $colorPrincipal;
+        }
+    
+    .formulario {
+        padding: 2rem;
+    }
+    label {
+        font-size: 1.3rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-left: 3rem;
+    }
+
+    input {
+        width: 150px;
+        height: 35px;    
+    }    
+
+    select {
+        padding: 0.50rem;
+    }
+
+    .comentarios {
+
+        margin-top: 2rem;
+        label{
+            position: relative;
+            bottom: 60px;
+            margin-right: 3rem;
+        }
+    }
+
+    .boton__Formulario {
+        text-align: center;
+
+        input {
+            padding-bottom: 40px;
+            width: 100px;
+            height: 25px;
+        }
+    }
 }
 
-input {
-    transition: all 1s;
-    width: 150px;
-    height: 20px;
 
-}
 
-input:focus {
-    width: 200px;
-    height: 30px;
-}

@@ -318,16 +318,37 @@ h2 {
 /* Page Contacto */
 form {
   font-family: "Montserrat", sans-serif;
-  padding: 2rem; }
-
-input {
-  transition: all 1s;
-  width: 150px;
-  height: 20px; }
-
-input:focus {
-  width: 200px;
-  height: 30px; }
+  padding: 4rem; }
+  form legend {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: white;
+    background-color: #7d7ec2e6; }
+  form .formulario {
+    padding: 2rem; }
+  form label {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 3rem; }
+  form input {
+    width: 150px;
+    height: 35px; }
+  form select {
+    padding: 0.50rem; }
+  form .comentarios {
+    margin-top: 2rem; }
+    form .comentarios label {
+      position: relative;
+      bottom: 60px;
+      margin-right: 3rem; }
+  form .boton__Formulario {
+    text-align: center; }
+    form .boton__Formulario input {
+      padding-bottom: 40px;
+      width: 100px;
+      height: 25px; }
 
 /* Page Preguntas Frecuentes */
 .preguntasFrecuentes ul {
@@ -417,9 +438,7 @@ input:focus {
       .preguntasFrecuentes ul li button {
         width: 100%; }
         .preguntasFrecuentes ul li button p {
-          width: 100%;
-          font-size: 8px;
-          font-weight: 500; } }
+          width: 100%; } }
 
 @media only screen and (max-width: 720px) {
   .aromaterapia__imagenes {
