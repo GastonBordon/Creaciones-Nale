@@ -2,7 +2,7 @@
 
 .preguntasFrecuentes {
     
-    ul {
+    .accordion {
         background-image: url(../img/fondopreguntasf.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -11,37 +11,21 @@
         margin-bottom: 0;
         margin-top: 4rem;
 
-        li{
-            list-style: none;
-            font-family: $font-family;
-            font-weight: 600;
-            font-size: 1.2rem; 
-            padding: 2rem;
+        .card {
+            background: rgba(0, 0, 0, 0.30);
         }
 
-        .dropdown button {
-            background-color: rgba(0,0,0,0.38);
-            border: none;
+        .card-header button {
+            background: rgba(0, 0, 0, 0.30);
             color: white;
-            font-weight: 600;
-        }
-        .dropdown .dropdown-menu {
-            background-color: rgba(0,0,0,0.38);
+            font-size: 1.2rem;
+            font-weight: 500;
+        } 
+
+        .card-body {
             color: white;
-            border: none;
-            margin: 0;
-            padding: 0;
-
-            .dropdown-item {
-                color: white;
-                font-weight: 600;
-                font-size: 1.2rem;
-                margin: 0;
-            }
-
-            .dropdown-item:hover {
-                background-color: inherit;
-            }
+            font-size: 1.2rem;
+            font-weight: 500;
         }
-    }
+    }   
 }
