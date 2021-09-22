@@ -425,7 +425,8 @@ form {
     max-width: 100%; }
     .preguntasFrecuentes .accordion {
       width: 100%;
-      padding: 0; }
+      padding: 0;
+      background-position: center; }
   form .formulario {
     padding: 0; }
     form .formulario input {
