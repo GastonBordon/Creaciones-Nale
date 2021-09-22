@@ -418,16 +418,14 @@ form {
   .ubicacion__Mapas {
     flex-direction: column;
     justify-content: space-around; }
-  .preguntasFrecuentes ul {
+  .preguntasFrecuentes {
     width: 100%;
-    text-align: center;
-    padding: 0; }
-    .preguntasFrecuentes ul li {
-      padding: 2rem 0; }
-      .preguntasFrecuentes ul li button {
-        width: 100%; }
-        .preguntasFrecuentes ul li button p {
-          width: 100%; }
+    padding: 0;
+    margin: 0;
+    max-width: 100%; }
+    .preguntasFrecuentes .accordion {
+      width: 100%;
+      padding: 0; }
   form .formulario {
     padding: 0; }
     form .formulario input {
