@@ -68,12 +68,12 @@ $fondo: blanco;
 
     p {
         font-family: $font-family;
-        border-style: solid;
-        border-radius: 2rem;
+        border: 1px solid $colorPrincipal;
+        border-radius: .25rem;
         border-width: 0.3rem;
         margin: 2rem;
         padding: 2rem;
-        background-color: rgba(170, 169, 169, 0.7);
+        background-color: white;
     }
 }
 

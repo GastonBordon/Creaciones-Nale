@@ -91,12 +91,12 @@
 
 .aromaterapia p {
   font-family: "Montserrat", sans-serif;
-  border-style: solid;
-  border-radius: 2rem;
+  border: 1px solid #7d7ec2e6;
+  border-radius: .25rem;
   border-width: 0.3rem;
   margin: 2rem;
   padding: 2rem;
-  background-color: rgba(170, 169, 169, 0.7); }
+  background-color: white; }
 
 /* Novedades */
 .novedades {
@@ -399,8 +399,6 @@ form {
   .aromaterapia__imagenes {
     width: 100%; }
     .aromaterapia__imagenes img {
-      padding: 1rem 2rem;
-      margin: auto;
       width: 100%;
       height: 350px; }
   .novedades__contenido {
