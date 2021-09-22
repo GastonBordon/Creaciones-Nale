@@ -91,9 +91,8 @@
 
 .aromaterapia p {
   font-family: "Montserrat", sans-serif;
-  border: 1px solid #7d7ec2e6;
+  border: 3px solid #7d7ec2e6;
   border-radius: .25rem;
-  border-width: 0.3rem;
   margin: 2rem;
   padding: 2rem;
   background-color: white; }
