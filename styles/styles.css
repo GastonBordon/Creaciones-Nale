@@ -325,13 +325,15 @@ form {
     color: white;
     background-color: #7d7ec2e6; }
   form .formulario {
-    padding: 2rem; }
+    padding: 2rem;
+    text-align: center; }
   form label {
     font-size: 1.3rem;
     margin-top: 1rem;
     margin-right: 1rem;
     margin-left: 3rem; }
   form input {
+    margin-top: 1rem;
     width: 150px;
     height: 35px; }
   form select {

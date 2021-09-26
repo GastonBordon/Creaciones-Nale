@@ -15,7 +15,9 @@ form {
     
     .formulario {
         padding: 2rem;
+        text-align: center;
     }
+
     label {
         font-size: 1.3rem;
         margin-top: 1rem;
@@ -24,6 +26,7 @@ form {
     }
 
     input {
+        margin-top: 1rem;
         width: 150px;
         height: 35px;    
     }    
@@ -33,8 +36,9 @@ form {
     }
 
     .datos__Contacto {
-        margin-bottom: 1rem;
+        margin-bottom: 1rem;    
     }
+
     .comentarios {
         margin-top: 2rem;
         
@@ -42,6 +46,7 @@ form {
             position: relative;
             bottom: 60px;
             margin-right: 3rem;
+
         }
     }
 
